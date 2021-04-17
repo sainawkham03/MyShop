@@ -9,14 +9,15 @@ body {
 }
 #header {
 	background-color: #1abc9c;
-	height: 175px;
-	line-height: 150px;
+	height: 200px;
+	line-height: 200px;
 }
 #header-title {
 	display: block;
 	float: left;
 	font-size: 100px;
 	font-weight: bold;
+	color: white;
 }
 #header-nav {
 	display: block;
@@ -89,8 +90,8 @@ p {
 	font-size: 50px;
 }
 .item img{
-	width: 350px;
-	height: 525px;
+	width: 400px;
+	height: 600px;
 }
 .item {
 	display: inline-block;
@@ -115,5 +116,9 @@ p {
 .item span {
 	font-weight: bold;
 	font-size: 30px;
-	padding-left: 40px;
+	padding-left: 100px;
+}
+#content-title span {
+	font-size: 60px;
+	color: gray;
 }
