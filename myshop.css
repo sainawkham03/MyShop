@@ -109,3 +109,11 @@ p {
 	font-weight: bold;
 	padding-top: 50px;
 }
+.item p {
+	line-height: 2.5;
+}
+.item span {
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 40px;
+}
