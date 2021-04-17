@@ -9,13 +9,13 @@ body {
 }
 #header {
 	background-color: #1abc9c;
-	height: 150px;
+	height: 175px;
 	line-height: 150px;
 }
 #header-title {
 	display: block;
 	float: left;
-	font-size: 50px;
+	font-size: 100px;
 	font-weight: bold;
 }
 #header-nav {
@@ -26,10 +26,13 @@ body {
 #header-nav li {
 	display: inline;
 	padding-left: 20px;
+	font-size: 30px;
 }
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 #header a {
 	color: white;
@@ -53,13 +56,16 @@ body {
 	display: inline-block;
 	vertical-align: top;
 }
-#footer h4 {
+#footer h1 {
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	font-size: 40px;
 }
 #footer p {
 	color: white;
+	font-size: 20px;
+	line-height: .8;
 }
 a {
 	color: #1abc9c;
@@ -77,22 +83,14 @@ p {
 }
 #content {
 	background-color: white;
-	min-height: 300px;
-}
-#content .container {
-	padding: 50px 0;
+	min-height: 1000px;
 }
 #content-title {
-	font-size: 30px;
-}
-.column img {
-	vertical-align: middle;
-	width: 200px;
-	height: 300px;
+	font-size: 50px;
 }
 .item img{
-	width: 200px;
-	height: 300px;
+	width: 300px;
+	height: 450px;
 }
 .item {
 	display: inline-block;
@@ -101,4 +99,13 @@ p {
 	display: inline-block;
 	vertical-align: middle;
 	min-width: 400px,
+}
+.contact-column {
+	display: inline-block;
+	padding-right: 10px;
+}
+#size-nav {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 50px;
 }
