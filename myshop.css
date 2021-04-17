@@ -90,8 +90,8 @@ p {
 	font-size: 50px;
 }
 .item img{
-	width: 400px;
-	height: 600px;
+	width: 300px;
+	height: 450px;
 }
 .item {
 	display: inline-block;
@@ -112,6 +112,7 @@ p {
 }
 .item p {
 	line-height: 2.5;
+	font-size: 20px;
 }
 .item span {
 	font-weight: bold;
