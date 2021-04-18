@@ -4,8 +4,6 @@ body {
 	color: #555;
 	margin: 0;
 	font-family: "Montserrat";
-	sans-serif;
-
 }
 #header {
 	background-color: #1abc9c;
@@ -15,9 +13,10 @@ body {
 #header-title {
 	display: block;
 	float: left;
-	font-size: 100px;
+	font-size: 70px;
 	font-weight: bold;
 	color: white;
+	margin: 0;
 }
 #header-nav {
 	display: block;
@@ -28,12 +27,6 @@ body {
 	display: inline;
 	padding-left: 20px;
 	font-size: 30px;
-}
-.container {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding-right: 30px;
-	padding-left: 30px;
 }
 #header a {
 	color: white;
@@ -48,6 +41,12 @@ body {
 #header a:hover {
 	color: #222;
 }
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-right: 30px;
+	padding-left: 30px;
+}
 #footer {
 	background-color: #2f2f2f;
 	padding: 50px 0;
@@ -57,16 +56,19 @@ body {
 	display: inline-block;
 	vertical-align: top;
 }
-#footer h1 {
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size: 40px;
-}
 #footer p {
 	color: white;
 	font-size: 20px;
 	line-height: .8;
+}
+#footer h3 {
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+}
+.contact-column {
+	display: inline-block;
+	padding-right: 10px;
 }
 a {
 	color: #1abc9c;
@@ -75,19 +77,19 @@ a {
 a:hover {
 	color: #F6A623;
 }
+a:active {
+	color: #F6A623;
+}
 h1, h2, h3, h4 {
 	color: #333;
-}
-p {
-	line-height: 1.5;
-	font-size: 14px;
 }
 #content {
 	background-color: white;
 	min-height: 1000px;
 }
-#content-title {
+#content h1 span {
 	font-size: 50px;
+	color: #1abc9c;
 }
 .item img{
 	width: 300px;
@@ -101,10 +103,6 @@ p {
 	vertical-align: middle;
 	min-width: 400px,
 }
-.contact-column {
-	display: inline-block;
-	padding-right: 10px;
-}
 #size-nav {
 	font-size: 30px;
 	font-weight: bold;
@@ -114,12 +112,8 @@ p {
 	line-height: 2.5;
 	font-size: 20px;
 }
-.item span {
+.home-item p {
 	font-weight: bold;
 	font-size: 30px;
 	padding-left: 100px;
-}
-#content-title span {
-	font-size: 60px;
-	color: gray;
 }
